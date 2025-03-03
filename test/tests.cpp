@@ -64,3 +64,8 @@ TEST(SumPrimeTest, LargerBounds) {
   EXPECT_EQ(sumPrime(20), 77);
   EXPECT_EQ(sumPrime(100), 1060);
 }
+
+TEST(SumPrimeTest, LargeBounds) {
+  EXPECT_EQ(sumPrime(1000), 76127);
+  EXPECT_EQ(sumPrime(200), 4227); 
+}
